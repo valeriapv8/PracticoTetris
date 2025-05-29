@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111">
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPlayerScore"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00FFFF"
+        android:textSize="18sp" />
+</LinearLayout>
